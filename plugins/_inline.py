@@ -52,17 +52,17 @@ async def e(o):
         )
         res = [
             await b.article(
-                title="Ultroid Userbot",
-                url="https://t.me/TeamUltroid",
+                title="Super Userbot",
+                url="https://t.me/TheHacker90",
                 description="Userbot | Telethon ",
                 text=ALIVEMSG,
                 thumb=InputWebDocument(ULTROID_PIC, 0, "image/jpeg", []),
                 buttons=[
-                    [Button.url(text="Support Group", url="t.me/UltroidSupport")],
+                    [Button.url(text="Support", url="t.me/TheHacker90")],
                     [
                         Button.url(
                             text="Repo",
-                            url="https://github.com/Teamultroid/Ultroid",
+                            url="https://t.me/TheHacker90",
                         ),
                     ],
                 ],
